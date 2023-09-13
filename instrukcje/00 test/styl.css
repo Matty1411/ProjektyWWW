@@ -1,0 +1,28 @@
+body {
+    background-color: darkgoldenrod;
+    color: black;
+    font-family: "Mongolian Baiti";
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+
+}
+section{
+    font-family: Inter;
+    background-color: chocolate;
+padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+footer {
+    color: darkred;
+    padding-left: 80px;
+}
+
+img  {
+width: 100%
+}
