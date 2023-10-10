@@ -16,14 +16,29 @@
       var canvas = document.getElementById("drawingCanvas");
       var context = canvas.getContext("2d");
 
-      context.moveTo(250,50);
-      context.lineTo(50,250);
-      context.lineTo(450,250);
+      context.beginPath();
+        context.fillRect(5,5,490,290);
+        context.closePath();  context.fillStyle = "yellow";
+        context.fill();
+
+      context.moveTo(250,250);
+      context.lineTo(50,50);
+      context.lineTo(450,50);
       context.closePath();
-    }
+
+      // Pokrywa pole trójkąta kolorem
+        context.fillStyle = "red";
+        context.fill();
+
+        // Rysuje krawedzie
+        context.lineWidth = 10;
+        context.strokeStyle = "purple";
+        context.stroke();
+
+    };
   </script>
 </head>
 <body>
-
+<canvas id="drawingCanvas" width="500" height="300"></canvas>
 </body>
 </html>
