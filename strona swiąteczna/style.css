@@ -1,0 +1,27 @@
+#content {
+    background-image: url('090159_r0_940.jpg');
+    height: 626px;
+    width: 940px;
+}
+
+#container {
+    width: 1230px;
+    float: right;
+}
+
+#header {
+    background-color: green;
+    color: black;
+    text-align: center;
+    height: 62px;
+    border-top-right-radius: 25px;
+}
+
+#menu {
+    background-color: green;
+    width: 150px;
+    height: 564px;
+    border-bottom-left-radius: 25px;
+    float: right;
+    margin-right: 940px;
+}
